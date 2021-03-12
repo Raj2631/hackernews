@@ -14,6 +14,7 @@ let links = [
 ];
 
 let idCount = links.length;
+
 const resolvers = {
   Query: {
     info: () => `API is working properly!`,
