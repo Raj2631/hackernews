@@ -24,8 +24,4 @@ function getUserId(req, authToken) {
   throw new Error('Not authenticated');
 }
 
-function log() {
-  console.log('Hello');
-}
-
-export { APP_SECRET, getUserId, log };
+export { APP_SECRET, getUserId };
